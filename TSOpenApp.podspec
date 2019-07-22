@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TSOpenApp'
   s.version          = '0.1.1'
-  s.summary          = 'A short description of TSOpenApp.'
+  s.summary          = 'can use this open other app,example open taobao goods detail,taobao shop detail'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
