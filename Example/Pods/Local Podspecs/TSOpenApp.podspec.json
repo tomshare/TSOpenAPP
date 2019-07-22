@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TSOpenApp/Classes/**/*"
+  "source_files": "TSOpenApp/Classes/**/*",
+  "resource_bundles": {
+    "TSOpenApp": [
+      "TSOpenApp/Assets/*.plist"
+    ]
+  }
 }

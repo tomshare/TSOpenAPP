@@ -32,6 +32,10 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'TSOpenApp/Classes/**/*'
   
+  s.resource_bundles = {
+    'TSOpenApp' => ['TSOpenApp/Assets/*.plist']
+  }
+  
   # s.resource_bundles = {
   #   'TSOpenApp' => ['TSOpenApp/Assets/*.png']
   # }

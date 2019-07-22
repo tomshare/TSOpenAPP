@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>openApp.jdMobile</key>
+	<array/>
+	<key>taobao</key>
+	<array>
+		<string>taobao://item.taobao.com/item.htm?id=(itemid)</string>
+		<string>taobao://item.taobao.com/item.htm?id=(itemid)</string>
+	</array>
+	<key>tmall</key>
+	<array>
+		<string>tmall://tmallclient/?{\&quot;action\&quot;:\&quot;item:id=(itemid)\&quot;}</string>
+	</array>
+</dict>
+</plist>

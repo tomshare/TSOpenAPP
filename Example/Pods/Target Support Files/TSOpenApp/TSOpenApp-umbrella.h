@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "TSOpenAppSchemes.h"
 
 FOUNDATION_EXPORT double TSOpenAppVersionNumber;
 FOUNDATION_EXPORT const unsigned char TSOpenAppVersionString[];
