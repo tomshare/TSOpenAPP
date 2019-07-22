@@ -1,0 +1,16 @@
+PODS:
+  - TSOpenApp (0.1.0)
+
+DEPENDENCIES:
+  - TSOpenApp (from `../`)
+
+EXTERNAL SOURCES:
+  TSOpenApp:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TSOpenApp: 4fa8c768e5323e5b35d3dd0c69579add9d879c44
+
+PODFILE CHECKSUM: a434ccc1e25a8c5c43bb3eb4dce7f81ae61b7a6e
+
+COCOAPODS: 1.6.1

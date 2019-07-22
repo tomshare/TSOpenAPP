@@ -1,0 +1,6 @@
+framework module TSOpenApp {
+  umbrella header "TSOpenApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

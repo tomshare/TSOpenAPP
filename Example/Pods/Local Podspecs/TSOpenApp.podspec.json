@@ -1,0 +1,22 @@
+{
+  "name": "TSOpenApp",
+  "version": "0.1.0",
+  "summary": "A short description of TSOpenApp.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tch85683282/TSOpenApp",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tch85683282": "85683282@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/tch85683282/TSOpenApp.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TSOpenApp/Classes/**/*"
+}
