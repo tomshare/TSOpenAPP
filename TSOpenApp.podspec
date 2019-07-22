@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TSOpenApp'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'can use this open other app,example open taobao goods detail,taobao shop detail'
 
 # This description is used to generate tags and improve search results.

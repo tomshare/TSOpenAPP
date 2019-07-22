@@ -80,8 +80,6 @@ static TSOpenAppSchemes *_instance = nil;
     if (weburl) {
         websUrl = [NSURL URLWithString:[weburl stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
     }
-    
-    
     if (urlString && urlString.length > 0) {
         //打开app
         NSURL *appurl = [NSURL URLWithString:[urlString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
@@ -92,8 +90,7 @@ static TSOpenAppSchemes *_instance = nil;
         //打开网页
         else  {
             //尝试打开app ios10以后的系统
-            
-            if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 10.0) {
+            if (@available(iOS 10.0, *)) {
                 [[UIApplication sharedApplication] openURL:appurl options:@{} completionHandler:^(BOOL success) {
                     if (!success) {
                         //失败打开网页
@@ -105,8 +102,6 @@ static TSOpenAppSchemes *_instance = nil;
             else {
                 [self applicationOpenUrl:websUrl];
             }
-            
-            
         }
     }
     else if (websUrl) {
@@ -115,7 +110,8 @@ static TSOpenAppSchemes *_instance = nil;
 }
 
 - (void)applicationOpenUrl:(NSURL *)url {
-    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 10.0) {
+    
+    if (@available(iOS 10.0, *)) {
         [[UIApplication sharedApplication] openURL:url options:@{} completionHandler:^(BOOL success) {
             if (success) {
                 
