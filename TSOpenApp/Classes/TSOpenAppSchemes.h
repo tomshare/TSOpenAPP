@@ -11,6 +11,7 @@ typedef NS_ENUM(NSInteger, TSOpenAppSchemesType) {
     TSOpenAppSchemesTypeJD = 0,
     TSOpenAppSchemesTypeTmall = 1,
     TSOpenAppSchemesTypeTaobao = 2,
+    TSOpenAppSchemesTypeWeiDianBuyer = 3,
 };
 
 extern NSString * NSStringFromTSOpenAppSchemesType(TSOpenAppSchemesType type);

@@ -16,6 +16,8 @@ NSString * NSStringFromTCH_OpenAPPSchemesType(TSOpenAppSchemesType type) {
             return @"taobao";
         case TSOpenAppSchemesTypeTmall:
             return @"tmall";
+        case TSOpenAppSchemesTypeWeiDianBuyer:
+            return @"weidianbuyer";
         default:
             return nil;
     }

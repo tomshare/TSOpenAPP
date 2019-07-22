@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: can use this open other app,example open taobao goods detail,taobao shop detail
+在app内部打开第三方app 例如淘宝的商品详情，淘宝的店铺详情，京东商品详情等等
                        DESC
 
   s.homepage         = 'https://github.com/tomshare/TSOpenApp'

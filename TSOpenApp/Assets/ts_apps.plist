@@ -2,11 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>weidianbuyer</key>
+	<array>
+		<string>weidianbuyer://wdb/goods_detail?itemId=(itemid)</string>
+	</array>
 	<key>openApp.jdMobile</key>
-	<array/>
+	<array>
+		<string>openApp.jdMobile://virtual?params={&quot;category&quot;:&quot;jump&quot;,&quot;des&quot;:&quot;productDetail&quot;,&quot;skuId&quot;:&quot;(itemid)&quot;,&quot;sourceType&quot;:&quot;JSHOP_SOURCE_TYPE&quot;,&quot;sourceValue&quot;:&quot;JSHOP_SOURCE_VALUE&quot;}</string>
+	</array>
 	<key>taobao</key>
 	<array>
-		<string>taobao://item.taobao.com/item.htm?id=(itemid)</string>
 		<string>taobao://item.taobao.com/item.htm?id=(itemid)</string>
 	</array>
 	<key>tmall</key>
