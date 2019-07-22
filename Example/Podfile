@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TSOpenApp_Example' do
+  pod 'TSOpenApp', :path => '../'
+
+  target 'TSOpenApp_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
