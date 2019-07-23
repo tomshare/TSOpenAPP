@@ -22,7 +22,7 @@ pod 'TSOpenApp'
 
 ## Author
 
-tch85683282, 85683282@qq.com
+
 
 ## License
 
