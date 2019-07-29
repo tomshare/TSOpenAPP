@@ -13,10 +13,12 @@
 	<key>taobao</key>
 	<array>
 		<string>taobao://item.taobao.com/item.htm?id=(itemid)</string>
+		<string>taobao://page.tb/shop?shopId=(itemid)</string>
 	</array>
 	<key>tmall</key>
 	<array>
 		<string>tmall://tmallclient/?{\&quot;action\&quot;:\&quot;item:id=(itemid)\&quot;}</string>
+		<string>tmall://page.tm/shop?shopId=(itemid)</string>
 	</array>
 </dict>
 </plist>

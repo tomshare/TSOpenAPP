@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0AEA263EDE8684DD41436F78 /* Pods-TSOpenApp_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSOpenApp_Example.release.xcconfig"; path = "Target Support Files/Pods-TSOpenApp_Example/Pods-TSOpenApp_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1FF1366670EEDDD6DAA22BAB /* TSOpenApp.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TSOpenApp.podspec; path = ../TSOpenApp.podspec; sourceTree = "<group>"; };
+		1FF1366670EEDDD6DAA22BAB /* TSOpenApp.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TSOpenApp.podspec; path = ../TSOpenApp.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		22703DF23D16AD601161FFD4 /* Pods-TSOpenApp_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSOpenApp_Example.debug.xcconfig"; path = "Target Support Files/Pods-TSOpenApp_Example/Pods-TSOpenApp_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2A1D119E202AE347D34ED815 /* Pods_TSOpenApp_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSOpenApp_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59765872E4716B81227BAF1B /* Pods_TSOpenApp_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSOpenApp_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };

@@ -20,6 +20,15 @@ it, simply add the following line to your Podfile:
 pod 'TSOpenApp'
 ```
 
+## 实现效果
+app内部更加快捷的打开其他app的页面，例如打开淘宝商品详情页，天猫商品详情页，京东商品详情页
+
+## 已添加app
+京东，淘宝，天猫，微店
+
+## 待添加
+苏宁，国美，网易考拉，等等
+
 ## Author
 
 
